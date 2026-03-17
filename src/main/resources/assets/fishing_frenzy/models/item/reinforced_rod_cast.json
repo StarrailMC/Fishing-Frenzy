@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld_rod",
+  "textures": {
+    "layer0": "fishing_frenzy:item/reinforced_rod/reinforced_rod_cast"
+  }
+}

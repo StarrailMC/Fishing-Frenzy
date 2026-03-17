@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "fishing_frenzy",
+  "version": "${version}",
+  "name": "Fishing Frenzy",
+  "description": "A Simple Fishing Mod that adds a few Items",
+  "authors": [],
+  "contact": {},
+  "license": "Apache-2.0",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "com.moovintwo.fishing_frenzy.client.datagen.Fishing_frenzyDataGenerator"
+    ],
+    "client": [
+      "com.moovintwo.fishing_frenzy.client.Fishing_frenzyClient"
+    ],
+    "main": [
+      "com.moovintwo.fishing_frenzy.Fishing_frenzy"
+    ]
+  },
+  "mixins": [
+    "fishing_frenzy.mixins.json",
+    {
+      "config": "fishing_frenzy.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

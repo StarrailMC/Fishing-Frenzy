@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld_rod",
+  "textures": {
+    "layer0": "fishing_frenzy:item/polar_snare/polar_snare_cast"
+  }
+}

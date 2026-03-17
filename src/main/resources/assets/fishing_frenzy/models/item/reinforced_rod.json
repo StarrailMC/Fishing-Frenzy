@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/handheld_rod",
+  "textures": {
+    "layer0": "fishing_frenzy:item/reinforced_rod/reinforced_rod"
+  },
+  "overrides": [
+    {
+      "predicate": { "cast": 1 },
+      "model": "fishing_frenzy:item/reinforced_rod_cast"
+    }
+  ]
+}
